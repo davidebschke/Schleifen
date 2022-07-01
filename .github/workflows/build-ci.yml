@@ -13,7 +13,7 @@ jobs:
         with:                                         # mit welcher Version
           java-version: "18"                          # mit java version 18
           distribution: "temurin"                     # von wo die version oracle usw. in den falle temurin
-          - name:  Build Project                      # nur eine benennung
-             run:  mvn -B package -- file pom.xml     # -B steht für batge mode und ist dafür nur das nötigste auszugeben
+      - name:  Build Project                      # nur eine benennung
+        run:  mvn -B package -- file pom.xml     # -B steht für batge mode und ist dafür nur das nötigste auszugeben
 
 
